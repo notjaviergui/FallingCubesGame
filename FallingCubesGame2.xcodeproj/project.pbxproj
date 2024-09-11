@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1259880A2C912C96007BE32A /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125988092C912C96007BE32A /* SceneKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		125987EC2C912BCE007BE32A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		125987DB2C912BCD007BE32A /* FallingCubesGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingCubesGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		125987EB2C912BCE007BE32A /* FallingCubesGame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingCubesGame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		125987F52C912BCE007BE32A /* FallingCubesGame2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingCubesGame2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125988092C912C96007BE32A /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/iOSSupport/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1259880A2C912C96007BE32A /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				125987DD2C912BCD007BE32A /* FallingCubesGame2 */,
 				125987EE2C912BCE007BE32A /* FallingCubesGame2Tests */,
 				125987F82C912BCE007BE32A /* FallingCubesGame2UITests */,
+				125988082C912C96007BE32A /* Frameworks */,
 				125987DC2C912BCD007BE32A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				125987F52C912BCE007BE32A /* FallingCubesGame2UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		125988082C912C96007BE32A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				125988092C912C96007BE32A /* SceneKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FallingCubesGame2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +442,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FallingCubesGame2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
